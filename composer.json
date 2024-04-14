@@ -1,22 +1,27 @@
 {
-    "name": "home/test_multi_proc",
+    "name": "inilim/file_worker",
+    "description": "file_worker",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Home\\TestMultiProc\\": "src/"
+            "Inilim\\FileWorker\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Dmitry",
-            "email": "40324321+inilim@users.noreply.github.com"
+            "name": "inilim"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "inilim/string": "dev-main",
         "inilim/array": "dev-main",
         "inilim/integer": "dev-main",
         "inilim/json_helper": "dev-main"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "require-dev": {
+        "phpstan/phpstan": "@stable"
+    }
 }
