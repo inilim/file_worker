@@ -1,0 +1,22 @@
+{
+    "name": "home/test_multi_proc",
+    "autoload": {
+        "psr-4": {
+            "Home\\TestMultiProc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry",
+            "email": "40324321+inilim@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "inilim/string": "dev-main",
+        "inilim/array": "dev-main",
+        "inilim/integer": "dev-main",
+        "inilim/json_helper": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
